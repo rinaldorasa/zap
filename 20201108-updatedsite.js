@@ -1,0 +1,1 @@
+document.getElementById("updatedsite").innerHTML=  ' <footer id="siteupdated"  class="bordoverdesolidx"  style="padding-left:2.5rem;  text-align:left; ">    <p style="font-size:0.5rem !important;">  updated 19:00 november 8, 2020  </p> </footer> ';   
