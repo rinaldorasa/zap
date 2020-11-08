@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" 
+ content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <meta name="generator" content="AlterVista - Editor HTML"/>
+
+ <title>
+1130
+
+ 20201108
+ poster
+ 20191119f_1-CREEK 20200704-0810_by_odlanir - Altervista
+ </title>
+
+
+ <!-- 
+ <script>
+	var radice="http://beatsupernovarasa.altervista.org/zap/";
+ </script> 
+
+ -->
+
+
+
+<script src="http://beatsupernovarasa.altervista.org/radice/radice.js"></script>
+
+
+
+<!--  <script>
+	var carica_script = document.createElement("script");
+	var postfisso = new Date();
+	var nome ="http://beatsupernovarasa.altervista.org/zap/bs/radice/radice.js";
+	nome = nome +"?"+ postfisso;
+	carica_script.src=nome;
+	document.getElementsByTagName("head")[0].appendChild(carica_script);
+ </script>
+ -->
+
+
+
+
+ <script>
+	var carica_script = document.createElement("link");
+	var postfisso = new Date();
+	var nome =radice+"bs/css/bootstrap.min.css";
+	nome = nome +"?"+ postfisso;
+	carica_script.href=nome;
+	carica_script.type="text/css";
+	carica_script.rel="stylesheet";
+	document.getElementsByTagName("head")[0].appendChild(carica_script);
+ </script>
+
+
+ <script>
+	var carica_script = document.createElement("script");
+	var postfisso = new Date();
+	var nome =radice+"bs/js/bootstrap.bundle.min.js";
+	nome = nome +"?"+ postfisso;
+	carica_script.src=nome;
+	document.getElementsByTagName("head")[0].appendChild(carica_script);
+ </script>
+   
+   
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+<script src="https://use.fontawesome.com/2d0876dd08.js"></script>
+
+
+
+<script src="base_dati.js"></script>
+
+
+<style>
+ :root{
+ --bsnr-giallo: rgba(255, 170, 0, 0.035);
+ --bsnr-html: rgba(255, 170, 0, 0.035);
+ --bsnr-oldlace: rgba(253,245,230,0.5);
+ }
+ </style>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inconsolata:wght@500&family=PT+Mono&family=Roboto+Mono&display=swap" rel="stylesheet"> 
+
+
+<style>
+/*
+ font-family: 'Fira Code', monospace;
+ font-family: 'Inconsolata', monospace;
+ font-family: 'PT Mono', monospace;
+ font-family: 'Roboto Mono', monospace;
+*/
+
+html * {
+ /* colore base gradazioni sovrapponibili */
+ background-color: var(--bsnr-html);
+ font-size:1rem !important; 
+
+ /* gerarchia di font monospace */
+ /* font-family:'PT Mono'; */
+ font-family:monospace; 
+ font-family:'PT Mono';
+ font-family: 'Fira Code'; 
+ font-size:1rem !important;
+ 
+ }
+
+ html, body, main{
+ margin:0 auto !important; 
+}
+
+/* da rimuovere dopo debug */ 
+ body{ border: solid 0.1rem turquoise }
+ main{ border:solid 0.1rem violet }
+ .bordonerosolid{ border:solid .2rem black !important; }
+ .bordonerodashed{ border:dashed .2rem black !important; }
+ .bordonerodotted{ border:dotted .2rem black !important; }
+ .bordorossosolid{ border:solid .2rem red !important; }
+ .bordorossodashed{ border:dashed .2rem red !important; }
+ .bordorossodotted{ border:dotted .2rem red !important; }
+ .bordoverdesolid{ border:solid .2rem green !important; }
+ .bordoverdedashed{ border:dashed .2rem green !important; }
+ .bordoverdedotted{ border:dotted .2rem green !important; }
+
+ .bullhornlink{visibility:visible !important; visibility:hidden !important;}
+ .linkesterno{visibility:visible !important; /* visibility:hidden !important; */ }
+
+/* commentario */
+.commento{ visibility:visible; }
+
+/* aggiustamenti */
+/* bsnr-giallo viene mixato con oldlace */
+ body{ 
+ background-color:var(--bsnr-oldlace); 
+ text-align:center !important;
+ }
+
+/* anchor link patches */
+ a{ color:maroon !important;
+ font-size:1.75rem !important;
+ font-weight:normal; font-variant:small-caps; 
+ text-decoration: none;
+ letter-spacing:0.1rem; }
+ a:hover { color:red !important; }
+ a:visited { color:red !important; }
+
+/* aggiustamento local bs */
+ .mark{ font-size:0.1rem !important; }
+
+</style>
+
+
+
+
+ 
+</head>
+
+
+<body onload="attesa()">
+
+
+<main id="collapseMainY" class="collapseY jumbotron p-5">
+
+ <header>
+
+	<blockquote class="text-center clearfix">
+<!--
+		<a class="btn btn-warning border border-white shadow-none mt-1 fa fa-book" 
+		data-toggle="collapse" 
+		href="#collapseMain" 
+		role="button" 
+		aria-expanded="false" 
+		aria-controls="collapseMain">
+		</a>
+-->
+		<div>
+		BeatSuperNova <span style="font-size:2rem !important; ">
+			[Poster]</span>
+		</div>
+	</blockquote>
+
+ </header>
+
+ <table class="table grande_tavola bordonerodotted">
+ <tbody>
+ <tr>
+ <td class="bordonerodashed" style="width:5rem !important;">
+
+<div id="gallery_beat_list" 
+style="width:5rem !important; background-color:var(--bsnr-giallo); overflow:auto; ">
+<span class="fa fa-bug"></span><span class="mark">bug carosello</span>
+</div>
+
+
+
+ <script>
+ var carica_carosello_beat_active = document.createElement("script");
+ var postfisso = new Date();
+ var nome =radice+"slide/gallery_beat_list/default.js";
+ nome = nome +"?"+ postfisso;
+ carica_carosello_beat_active.src=nome;
+ document.getElementsByTagName("head")[0].appendChild(carica_carosello_beat_active);
+ </script>
+
+ 
+ </td>
+ 
+ <td>
+ 
+ <table class="table table-striped text-left bordonerosolidx">
+ 
+ <tr>
+ <td class="text-center">
+ <span style="font-size:2rem !important; font-variant:small-caps; "> 
+ Last News
+ </span>
+ </td>
+ </tr>
+ 
+
+
+ <tr>
+	<td class="text-center">
+		<aside class="card">
+
+			<div class="card-body text-left cardtesto0">
+			  [text]
+			</div><span class="cardtesto0"></span>
+
+			<div class="card-body text-left cardtesto1">
+				<img src="..." class="rounded mx-auto d-block cardimmagine1" alt="...">
+				<figcaption class="figure-caption didascalia1">
+					didascalia
+				</figcaption><span class="didascalia1"></span>
+			</div><span class="cardtesto1"></span>
+			
+
+		  	<div class="card-body text-left cardtesto2">
+			[text]
+		  	</div><span class="cardtext2"></span>
+		
+
+			<div class="card-body text-left cardtesto3">
+			[text]
+		  	</div><span class="cardtesto3"></span>
+
+		</aside>
+
+	</td>
+ </tr>
+
+
+   
+
+ </table>
+ 
+ 
+ 
+ 
+ </td> 
+ 
+ </tr>
+ 
+ </tbody>
+ </table> <!-- THE BIG TABLE FIN -->
+ 
+ 
+<!-- THANKS EVERYBODY STAY TUNED -->
+
+<footer class="card bordorossosolid">
+<div id="archivist"><span class="fa fa-bug"></span><span class="mark">bug the archivist</span></div>
+
+
+<a class="text-left" href="../index.html">
+	<span class="linkesterno text-left border border-white fa fa-external-link"></span>
+</a>
+
+
+<script>
+ var carica_script = document.createElement("script");
+ var postfisso = new Date();
+ var nome =radice+"bs/archivist/default.js";
+ nome = nome +"?"+ postfisso;
+ carica_script.src=nome;
+ document.getElementsByTagName("head")[0].appendChild(carica_script);
+ </script>
+
+
+
+ <blockquote>
+ <script type="text/javascript" language="javascript"> 
+ var s_sid = 107603;var st_dominio = 4; 
+ var cimg = 406;var cwi =165;var che =100; 
+ </script> 
+ <script type="text/javascript" language="javascript" src="http://s11.histats.com/js9.js"></script> 
+ <noscript><a href="http://www.histats.com/it/" target="_blank"> 
+ <img src="http://s103.histats.com/stats/0.gif?107603&amp;1" alt="contatore statistiche per siti" border="0"></a> 
+ </noscript>
+ </blockquote>
+ 
+ <div id="menu"><span class="fa fa-bug"></span><span class="mark">bug the menu</span></div>
+ <!-- <script src="./bs/menu/default.js"></script> -->
+
+ <script>
+	var carica_script = document.createElement("script");
+	var postfisso = new Date();
+	/*
+	var radice="http://beatsupernovarasa.altervista.org";
+	*/
+	var nome =radice+"bs/menu/default.js";
+	nome = nome +"?"+ postfisso;
+	carica_script.src=nome;
+	document.getElementsByTagName("head")[0].appendChild(carica_script);
+	</script>
+
+</footer>
+
+
+ 
+</main>
+
+
+
+
+
+<div id="fine" class="mt-5"></div>
+<div id="spinner" class="position-fixed top-0 left-0 fa fa-spinner fa-pulse">
+</div>
+
+<script>
+ function attesa(){
+ if (document.all){}
+ else if (document.getElementById){
+ document.getElementById("spinner").style.visibility="hidden";
+ }
+ 
+ }
+ </script>
+
+</body>
+</html>
+
+
+<!--
+
+ an oblique history	
+ where everything is bad it must be good to know the worst
+ make no mistake
+ protest is when i say
+ in this particular calligraphy
+ only very nice minds
+ the competence of the initially
+
+-->
+
+
+
+
+
+ 
+ <!-- BOOTSTRAP 5 INI 
+ 
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/@popperjs/core@2"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+ BOOTSTRAP 5 FIN -->
+
+ <!--
+ <link rel="stylesheet" href="http://beatsupernovarasa.altervista.org/bs5/css/bootstrap.min.css">
+ <script src="http://beatsupernovarasa.altervista.org/bs5/js/bootstrap.min.js"></script>
+ <script src="http://beatsupernovarasa.altervista.org/bs5/js/bootstrap.bundle.min.js"></script>
+-->
+
+
+<!-- <link rel="stylesheet" href="http://beatsupernovarasa.altervista.org/zap/bs/css/bootstrap.min.css"> -->
+
+
+<!--
+<script src="http://beatsupernovarasa.altervista.orgbs/js/bootstrap.bundle.min.js"></script>
+-->
+
+<!--
+<a class="btn-class"><i class="material-icons" style="font-variant: normal !important;">add</i></a>
+
+<script>
+$('.btn-class').on('click',function(){
+    if ($(this).find('i').text() == 'add'){
+        $(this).find('i').text('remove');
+    } else {
+        $(this).find('i').text('add');
+    }
+})	
+</script>
+
+-->
+
