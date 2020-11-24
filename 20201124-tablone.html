@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" 
+ content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ <title>
+tablone 1830A  20201124 extras [beatsupernova] commentato
+
+
+ 20191119f_1-CREEK 20200704-0810_by_odlanir - Altervista
+ </title>
+
+ <!-- root link -->
+<!-- http://beatsupernovarasa.altervista.org/zap/ -->
+ <script src="http://beatsupernovarasa.altervista.org/radice/radice.js"></script>
+ 
+ <!-- il root link viene usato -->
+
+ <script>
+var carica_script = document.createElement("link");
+var postfisso = new Date();
+var nome =radice+"bs/css/bootstrap.min.css";
+nome = nome +"?"+ postfisso;
+carica_script.href=nome;
+carica_script.type="text/css";
+carica_script.rel="stylesheet";
+document.getElementsByTagName("head")[0].appendChild(carica_script);
+ </script>
+<!-- material icons jQuery awesome google font --> 
+
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+<script src="https://use.fontawesome.com/2d0876dd08.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inconsolata:wght@500&family=PT+Mono&family=Roboto+Mono&display=swap" rel="stylesheet"> 
+
+<!-- personale base dati array javascript -->
+<script src="base_dati.js"></script>
+
+
+
+<!-- def variabili style -->
+
+<style>
+ :root{
+ --bsnr-giallo: rgba(255, 170, 0, 0.035);
+ --bsnr-html: rgba(255, 170, 0, 0.035);
+ --bsnr-oldlace: rgba(253,245,230,0.5);
+ }
+ </style>
+
+<!-- def globale background color font -->
+ <style>
+html * {
+ /* colore base gradazioni sovrapponibili */
+ background-color: var(--bsnr-html);
+ color:black;
+ font-size:1rem !important; 
+
+ /* gerarchia di font monospace */
+ /* font-family:'PT Mono'; */
+ font-family:monospace; 
+ font-family:'PT Mono';
+ font-family: 'Fira Code'; 
+ font-size:1rem !important;
+ 
+ }
+ 
+ /* def centratura */
+ html, body, main{
+ margin:0 auto !important; 
+}
+
+/* main padding */
+main{
+padding-left:0.5rem !important; padding-right:0.5rem !important; padding-top:5rem !important; padding-bottom:5rem !important; border:solid 0rem green !important;
+}
+
+/* debug */ 
+/* particolare */
+ body{ /* border: solid 0.1rem turquoise; */ }
+ main{ /* border:solid 0.1rem violet; */ }
+ 
+
+ /*  
+
+ .bordonerosolid{ border:solid 0.1rem black !important; }
+ .bordonerodashed{ border:dashed 0.1rem black !important; }
+ .bordonerodotted{ border:dotted 0.1rem black !important; }
+ .bordorossosolid{ border:solid 0.1rem red !important; }
+ .bordorossodashed{ border:dashed 0.1rem red !important; }
+ .bordorossodotted{ border:dotted 0.1rem red !important; }
+ .bordoverdesolid{ border:solid 0.1rem green !important; }
+ .bordoverdedashed{ border:dashed 0.1rem green !important; }
+ .bordoverdedotted{ border:dotted 0.1rem green !important; }
+ .bordobluesolid{ border:solid 0.1rem blue !important; }
+ .bordobluedashed{ border:dashed 0.1rem blue !important; }
+ .bordobluedotted{ border:dotted 0.1rem blue  !important; }
+
+ */
+
+/* generico */
+/*
+ .bordonerosolid,
+ .bordonerodashed,
+ .bordonerodotted,
+ .bordorossosolid,
+ .bordorossodashed,
+ .bordorossodotted,
+ .bordoverdesolid,
+ .bordoverdedashed,
+ .bordoverdedotted{ border:dotted 0rem blueviolet !important; }
+*/
+
+ 
+/* ********************* classes per debug ********************* */
+ .bullhornlink{visibility:visible !important; visibility:hidden !important;}
+ .linkesterno{visibility:visible !important; /* visibility:hidden !important; */ }
+ 
+ .nobug{ display:none !important; display:block !important; }
+ 
+/* commentario */ 
+ .commento{ visibility:visible; }
+ .titolo{ visibility:visible !important; }
+ .item_prova, .itemprova{ visibility:hidden !important; }
+
+
+
+
+ 
+/* aggiustamenti */
+ body{ 
+ background-color:var(--bsnr-html); 
+ /* background-image: url("http://www.beatsupernovarasa.com/beatpics/thewall.gif"); */
+ background-image: url("http://beatsupernovarasa.altervista.org/zap/beatpics/thewall.png"); background-repeat: repeat; background-attachment: fixed;
+ background-image: url('http://beatsupernovarasa.altervista.org/zap/thebeats/carta1.png'); background-repeat: repeat; background-attachment: fixed;
+ background-image: url('http://beatsupernovarasa.altervista.org/zap/beatpics/oleadri.png'); background-repeat: repeat; background-attachment: fixed;
+ text-align:center !important;
+ }
+
+ section{overflow:auto !important;}
+
+/* anchor link patches */
+ a{ color:maroon !important;
+ font-size:1.75rem !important;
+ font-family: monospace !important;
+ font-weight:normal; font-variant:small-caps; 
+ text-decoration: none;
+ letter-spacing:0.1rem; 
+ }
+ a:hover { color:red !important; }
+ a:visited { color:red !important; }
+
+/* immagini */
+ img{display:block !important; width:100% !important; height:auto !important; }
+
+/* *********************  table *********************  */
+ table{ 
+/* comando per table not exceeding container */ 
+ table-layout: fixed !important;
+ }
+table{text-align:left !important;  table-layout:fixed !important;}
+td{text-align:left !important; overflow:auto !important;}
+
+/* *********************  aggiustamento local bs *********************  */
+ .card{background-color:var(--bsnr-giallo) !important; }
+ .mark{ font-size:0.1rem !important; }
+
+/* *********************  bootstrap personalizzato *********************  */
+.bg-warning_my-5_px-3, .section_extras{
+	background-color: #ffc107 !important;
+	margin-top: 3rem !important;
+	margin-bottom: 3rem !important;
+	padding-right: 1rem !important;
+	padding-left: 1rem !important;
+}
+
+
+/* *********************  aggiustamento particolare *********************  */
+
+.articolo{ 
+margin-top:0.5rem; margin-bottom:0.5rem; 
+text-align:left !important;
+visibility:visible !important; 
+}
+
+section#charlie_newman>article>div.articolo{text-align:right !important;}
+
+.fontesmall { font-size: 0.7rem !important; }
+.fontebold{ font-weight: bold !important; }
+ </style>
+
+
+
+<style>
+	.item_sinistra{
+	margin-top:1.5rem !important; margin-bottom:1.5rem !important;
+	padding-left:0.1rem !important;   padding-right:0.1rem !important; 
+	background-color: var(--bsnr-html); background-color: oldlace; border-radius:0.2rem !important; }
+	
+	.item_a_sinistra{
+	font-size:1.5rem !important; font-weight:bold !important; 
+	overflow:auto !important;}
+</style>
+	
+	
+
+
+</head>
+
+
+
+<body onload="attesaY()">
+ <main id="collapseMainY" class="bordonerosolidY">
+   <header class="titolo">
+   <blockquote class="text-center clearfix">
+    <div>
+    beatsupernova <span style="font-size:2rem !important; ">
+     [Extras]</span>
+    </div>
+   </blockquote>
+   </header>
+  <table class="table bordorossodotted"><!-- TABLONE INI -->
+    <tbody><!-- TABLONE INI -->
+    <tr><!-- TABLONE INI -->
+<!--  *******  -->   
+    
+    
+    
+    
+<!--  - COLONNA SINISTRA - INI -->     
+<td id="colonna-sinistra" class="bordonerodashed p-0" 
+style="background-color:rgba(255,170,0,0.25); 
+width:5rem !important; width:2.3rem !important;  "><!-- LATO SINISTRO INI -->
+ 
+ [............................................................................................]
+ 
+
+   
+
+</td><!-- LATO SINISTRO FIN -->
+<!--  - COLONNA SINISTRA - FIN --> 
+
+     
+
+
+
+
+<!--  - COLONNA DESTRA - INI --> 
+<td class="bordoverdedotted" > <!-- LATO DESTRO INI -->
+
+ [............................................................................................]
+
+
+
+<!-- TAVOLA DELLE SEZIONI INI -->
+<table class="table">
+<tr class="item_extras_row">
+<td class="clearfix bordoverdesolid">
+<!--   **************   -->
+ [............................................................................................]
+
+
+
+
+
+
+
+
+
+
+<!--   **************   -->
+</td><!-- TAVOLA DELLE SEZIONI FIN --> 
+</tr><!-- TAVOLA DELLE SEZIONI FIN --> 
+</table><!-- TAVOLA DELLE SEZIONI FIN --> 
+<!-- TAVOLA DELLE SEZIONI FIN --> 
+
+
+
+
+</td><!-- LATO DESTRO FIN -->
+<!--  - COLONNA DESTRA - FIN -->
+
+
+
+
+<!--  *******  --> 
+</tr><!-- TABLONE FIN -->
+</tbody><!-- TABLONE FIN -->
+</table><!-- TABLONE FIN -->
+
+
+ </main>
+     
+   
+   
+   
+   
+   
+   
+   
+   
+     <!-- archivist updatedsite menu -->
+  <footer class="bordorossodottedY">
+
+	
+<!--
+   <div id="the_archivist" style="display:block !important; ">
+    <span class="fa fa-bug nobug"></span>
+    <span class="mark nobug">bug archivist</span>
+   </div>
+
+   <div id="menubeatsupernova">
+    <span class="fa fa-bug nobug"></span>
+    <span class="mark nobug">bug menubeatsupernova</span>
+   </div>
+
+  
+   <div id="updatedsite">
+    <span class="fa fa-bug nobug"></span>
+    <span class="mark nobug">bug updatedsite</span>
+   </div>
+-->
+
+<!-- icons https://github.com/danklammer/bytesize-icons -->
+<!--
+    <script>
+   var carica_script = document.createElement("script");
+   var postfisso = new Date();
+   var nome =radice+"bs/archivist/default.js";  
+
+   nome = nome +"?"+ postfisso;
+   carica_script.src=nome;
+   document.getElementsByTagName("head")[0].appendChild(carica_script);
+   </script>
+   
+   <script>
+   var carica_script = document.createElement("script");
+   var postfisso = new Date();
+   var nome =radice+"bs/updatedsite/default.js";
+   /* var nome ="../bs/updatedsite/default.js"; */
+   nome = nome +"?"+ postfisso;
+   carica_script.src=nome;
+   document.getElementsByTagName("head")[0].appendChild(carica_script);
+   </script>
+-->   
+  
+
+   <!-- menu a fondo pagina senza dropup
+    <div id="homeupdownextras">
+    <span class="fa fa-bug nobug"></span>
+    <span class="mark nobug">bug menu</span>
+    </div>
+  
+   
+    <script>
+   var carica_script = document.createElement("script");
+   var postfisso = new Date();
+   var nome =radice+"bs/homeupdownextras/default.js"; 
+  
+
+   nome = nome +"?"+ postfisso;
+   carica_script.src=nome;
+   document.getElementsByTagName("head")[0].appendChild(carica_script);
+   </script>
+   -->
+
+<!--
+   <div id="menuapdp">
+    <span class="fa fa-bug nobug"></span>
+    <span class="mark nobug">bug menu apdp</span>
+    </div>
+-->
+
+	<div id="apdpextras">
+    <span class="fa fa-bug nobug"></span>
+    <span class="mark nobug">bug apdpextras</span>
+    </div>
+
+    <script>
+      var carica_script = document.createElement("script");
+      var postfisso = new Date();
+      var nome =radice+"bs/apdpextras/default.js";  
+   
+      nome = nome +"?"+ postfisso;
+      carica_script.src=nome;
+      document.getElementsByTagName("head")[0].appendChild(carica_script);
+      </script>
+
+
+
+<!-- <script src="20201124_1800-apdpextras.js"></script> -->
+
+  
+    <!--
+   <script>
+
+
+  document.getElementById("apdpextras").innerHTML=  '   <div id="the_archivist" style="display:block !important; ">     <span class="fa fa-bug nobug"></span>     <span class="mark nobug">bug archivist</span>    </div>     <div id="menubeatsupernova">     <span class="fa fa-bug nobug"></span>     <span class="mark nobug">bug menubeatsupernova</span>    </div>        <div id="updatedsite">     <span class="fa fa-bug nobug"></span>     <span class="mark nobug">bug updatedsite</span>    </div>     <div id="menuapdp">     <span class="fa fa-bug nobug"></span>     <span class="mark nobug">bug menu apdp</span>     </div>';
+
+ 
+  document.getElementById("the_archivist").innerHTML=  ' <footer id="thanks_everybody"  class="ml-5 bordoverdesolidx"  style="text-align:left; ">    <section class="col mt-5 d-none" style="border:solid 0rem navy; ">  <figure class="figure">  <img class="rounded w-25"   src="http://beatsupernovarasa.altervista.org/immagini/rinaldo_on_lambretta_1954.jpg" alt="" title="Rinaldo four years old on the Lambretta 1954 - Ponzano Veneto - Italia" />  <div class="figure-caption small invisible">  Rinaldo four years old  on the Lambretta, <br/> 1954 - Ponzano Veneto - Italia  </div>  </figure> </section>      <section class="col">  <figure class="figure" style="margin-top:1rem; ">  <img class="rounded" src="http://beatsupernovarasa.altervista.org/immagini/peace_flag.jpg" alt="" />  </figure>  <div class="figure-caption small">  www.beatsupernovarasa.com   </div>  </section>      <blockquote class="medium bordohacking" >  thanks everybody! stay tuned &copy; 1997-2020  </blockquote>      <blockquote class="medium bordohacking" >  <p>  <span>  <img class="rounded w-25" src="http://beatsupernovarasa.altervista.org/immagini/rinaldo_rasa_400X400.jpg" alt="" style="visibility:hidden !important;" />  </span>  </p>    <a href="https://twitter.com/odlanir"  style="border:solid 0.1rem firebrick; font-family:sans-serif !important;  border-radius:0.2rem; "><svg id="i-twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="32" height="32">    <path stroke-width="0" fill="currentColor" d="M60 16 L54 17 L58 12 L51 14 C42 4 28 15 32 24 C16 24 8 12 8 12 C8 12 2 21 12 28 L6 26 C6 32 10 36 17 38 L10 38 C14 46 21 46 21 46 C21 46 15 51 4 51 C37 67 57 37 54 21 Z" /></svg>  </a> <span style="font-size:x-small; "><i style="font-size:0.6rem !important;">the archivist on twitter</i></span>  </blockquote>    <p style="font-size:0.5rem !important; visibility:hidden !important;">  https://github.com/danklammer/bytesize-icons </p> </footer> ';   
+
+
+  document.getElementById("updatedsite").innerHTML=  ' <footer id="siteupdated"  class="ml-5 bordoverdesolidx"  style="text-align:left; "> '+
+  ' <p style="font-size:0.5rem !important;"> '+
+  ' updated '+
+  ' 18:30  '+
+  ' november  '+
+  '  24 '+
+  ' ,  '+
+  ' 2020 '+
+  ' </p> </footer> ';   
+
+  document.getElementById("menubeatsupernova").innerHTML='   <footer class="text-left ml-5" >   '+
+  '     <a class="linkesterno text-left border border-warning rounded"   '+
+  '    href="../thebeats/thebeats.html"     style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">  '+
+  '    The_List_Of_Beats</a>   '+
+  '   <a class="linkesterno text-left border border-warning rounded"   '+
+  '    href="../thebeats/pics.html"     style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">  '+
+  '    Beat_Artists</a>  '+
+  '    <a class="linkesterno text-left border border-warning rounded"   '+
+  '    href="../thebeats/poster.html"     style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">  '+
+  '    Poster</a>  '+
+  '    <a class="linkesterno text-left border border-warning rounded"  '+
+  '     href="../thebeats/postcards.html"     style="background-color: rgba(255,170,0,1); font-size:1rem !important; "> '+
+  '     Postcards</a>   '+
+  '   <a class="linkesterno text-left border border-warning rounded"  '+
+  '     href="../thebeats/extras.html"     style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">  '+
+  '    Extras</a>     '+
+  '      </footer>  '+
+
+  '    <footer class="ml-5" style="margin-bottom:10rem !important; font-family:monospace;">  '+
+  '    <a class="linkesterno text-left border border-white; "   '+
+  '    href="../index.html" '+
+  '  style="font-size:1rem !important; font-family:monospace; float:left; border:solid 0.1rem black; ">  '+
+  '    Home_Page</a>  '+
+  '   </footer>';
+
+	document.getElementById("menuapdp").innerHTML= ' <section  '+
+	'  class="position-fixed '+
+	'    bottom-0 border border-warning"   '+
+	'   style=" width:100% !important; text-align:left !important;  background-color:rgba(255,170,0,0.65); ">  '+
+	'    '+
+	'    '+
+	' <span style="margin-right:2.3rem !important;  padding:0.2rem; border-radius:0.4rem !important;  border:solid 0.05rem navy !important;">   '+
+	'    '+
+	' <button type="button" class="btn shadow-none"   '+
+	'    data-toggle="collapse" data-target="#collapsemenuapdp"   '+
+	'    aria-expanded="false"  '+
+	'  style="border-radius:0rem !important; border:solid 0rem black; "> '+
+	'    '+
+	'  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-back" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/> '+
+	'  </svg>  '+
+	'    '+
+	' </button>      '+	
+	'  <span style="visibility:hidden !important;">menu</span>  '+
+	'    <a href="#fine">  '+
+	'   <svg xmlns="http://www.w3.org/2000/svg"   height="24" viewBox="0 0 24 24"  width="24"><path d="M0 0h24v24H0V0z"   fill="none" />  <path fill="maroon"   d="M20 12l-1.41-1.41L13 16.17V4h-2v12.17l-5.58-5.59L4 12l8 8 8-8z"/> '+
+	'   </svg> </a>   '+
+	'  <span style="visibility:hidden !important;">menu</span>  '+
+	'    '+
+	'   <a href="#">  '+
+	'   <svg xmlns="http://www.w3.org/2000/svg"   height="24"   viewBox="0 0 24 24"   width="24">  <path d="M0 0h24v24H0V0z"   fill="none"/>  <path fill="maroon"   d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/>  '+
+	'  </svg> </a>    '+
+	'    '+	
+	' </span>   '+
+	'    '+
+	'    '+
+	'    '+
+	'    '+
+	' <span>  '+
+	'    '+
+	'  <span id="collapsemenuapdp" class="collapse dropdown-menuY  border-0"   '+
+	'    style="    padding:0rem !important;    width:20rem !important;  '+
+	'     height:10rem !important;   '+
+	'     background-color:rgba(0,85,85,0);   '+
+	'    border-left:solid 0.1rem rgba(255,170,0,1) !important;   '+
+	'   border-radius:0rem !important;  '+
+	'     background-color:rgba(255,170,0,0); ">     '+
+	'  	<a class="btn-warning rounded"   '+
+	'  href="#jack_kerouac">  '+
+	'  	<span>jack_kerouac</span></a>  '+
+	' 	<a class="btn-warning rounded"  '+
+	'     '+
+	'  	<a class="btn-warning rounded"   '+
+	'  href="#ron_whitehead">  '+
+	'  	<span>ron_whitehead</span></a>  '+
+	' 	<a class="btn-warning rounded"  '+
+	'     '+
+
+	' </ul>  '+
+	'    </span> </span> '+
+	' </section> ';  
+	
+	</script>
+  -->
+  
+
+
+
+
+
+  </footer>
+  
+
+  <!--
+  <footer class="text-left" >
+ 
+   <a class="linkesterno text-left border border-warning rounded" 
+   href="../thebeats/thebeats.html" 
+   style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">
+   The_List_Of_Beats</a>
+   <a class="linkesterno text-left border border-warning rounded" 
+   href="../thebeats/pics.html" 
+   style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">
+   Beat_Artists</a>
+   <a class="linkesterno text-left border border-warning rounded" 
+   href="../thebeats/poster.html" 
+   style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">
+   Poster</a>
+   <a class="linkesterno text-left border border-warning rounded" 
+   href="../thebeats/postcards.html" 
+   style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">
+   Postcards</a>
+   <a class="linkesterno text-left border border-warning rounded" 
+   href="../thebeats/extras.html" 
+   style="background-color: rgba(255,170,0,1); font-size:1rem !important; ">
+   Extras</a>
+  
+  
+  </footer>
+  -->
+  
+   
+  <hr style="color:black; border:solid 0.5rem rgba(255, 170, 0, 0.035); " />
+
+<!--
+  <footer style="margin-bottom:10rem !important; font-family:monospace;">
+   <a class="linkesterno text-left border border-white; " 
+   href="../index.html" style="font-size:1rem !important; font-family:monospace; float:left; border:solid 0.1rem black; ">
+   Home_Page</a>
+  </footer>
+-->      
+
+
+ <div id="fine" class="mt-5"></div>
+  
+  <!-- spinner loading -->
+  <!-- font size 2.3 rem magic number -->
+  <div id="spinner" 
+  class="position-fixed bottom-0 right-0 rounded" 
+  style="background-color:rgba(255,170,0,1) !important; 
+  ">
+  <span class="fa fa-spinner fa-pulse" 
+  style="color:rgba(178,34,34,1) !important; font-size:2.3rem !important; "></span>
+  </div>
+  
+  <script>
+   function attesa(){
+   if (document.all){}
+   else if (document.getElementById){
+   document.getElementById("spinner").style.visibility="hidden";
+   }
+   
+   }
+   </script>
+  
+  
+
+
+
+ <!-- bundle in fondo -->
+   <script>
+   var carica_script = document.createElement("script");
+   var postfisso = new Date();
+   var nome =radice+"bs/js/bootstrap.bundle.min.js";
+   nome = nome +"?"+ postfisso;
+   carica_script.src=nome;
+   document.getElementsByTagName("head")[0].appendChild(carica_script);
+   </script>
+
+
+
+</body>
+</html>
