@@ -1,0 +1,179 @@
+/* tablone stile  */
+
+ :root{
+ --bsnr-giallo: rgba(255, 170, 0, 0.035);
+ --bsnr-html: rgba(255, 170, 0, 0.035);
+ --bsnr-oldlace: rgba(253,245,230,0.5);
+ --bsnr-oldlace: rgba(253,245,230,0.275);
+ }
+
+
+html * {
+ /* colore base gradazioni sovrapponibili */
+ background-color: var(--bsnr-html);
+ color:black;
+ font-size:1rem !important; 
+
+ /* gerarchia di font monospace */
+ /* font-family:'PT Mono'; */
+ font-family:monospace; 
+ font-family:'PT Mono';
+ font-family: 'Fira Code'; 
+ font-size:1rem !important;
+ 
+ }
+ 
+ /* def centratura */
+ html, body, main{
+ margin:0 auto !important; 
+}
+
+ body{ 
+ margin:0 auto !important; 
+ background-color:var(--bsnr-html); 
+ /* background-image: url("http://www.beatsupernovarasa.com/beatpics/thewall.gif"); */
+ background-image: url("http://beatsupernovarasa.altervista.org/zap/beatpics/thewall.png"); background-repeat: repeat; background-attachment: fixed;
+ background-image: url('http://beatsupernovarasa.altervista.org/zap/thebeats/carta1.png'); background-repeat: repeat; background-attachment: fixed;
+ background-image: url('http://beatsupernovarasa.altervista.org/zap/beatpics/oleadriY.png'); background-repeat: repeat; background-attachment: fixed;
+ text-align:center !important;
+ }
+
+/* main padding */
+main{
+ margin:0 auto !important; 
+padding-left:0.5rem !important; 
+padding-right:0.5rem !important; 
+padding-top:5rem !important; 
+padding-bottom:5rem !important; 
+border:solid 0rem green !important;
+}
+
+/* debug */ 
+/* particolare */
+ body{ /* border: solid 0.1rem turquoise; */ }
+ main{ /* border:solid 0.1rem violet; */ }
+ 
+
+ /*  
+
+ .bordonerosolid{ border:solid 0.1rem black !important; }
+ .bordonerodashed{ border:dashed 0.1rem black !important; }
+ .bordonerodotted{ border:dotted 0.1rem black !important; }
+ .bordorossosolid{ border:solid 0.1rem red !important; }
+ .bordorossodashed{ border:dashed 0.1rem red !important; }
+ .bordorossodotted{ border:dotted 0.1rem red !important; }
+ .bordoverdesolid{ border:solid 0.1rem green !important; }
+ .bordoverdedashed{ border:dashed 0.1rem green !important; }
+ .bordoverdedotted{ border:dotted 0.1rem green !important; }
+ .bordobluesolid{ border:solid 0.1rem blue !important; }
+ .bordobluedashed{ border:dashed 0.1rem blue !important; }
+ .bordobluedotted{ border:dotted 0.1rem blue  !important; }
+
+ */
+
+/* generico */
+/*
+ .bordonerosolid,
+ .bordonerodashed,
+ .bordonerodotted,
+ .bordorossosolid,
+ .bordorossodashed,
+ .bordorossodotted,
+ .bordoverdesolid,
+ .bordoverdedashed,
+ .bordoverdedotted{ border:dotted 0rem blueviolet !important; }
+*/
+
+ 
+/* ********************* classes per debug ********************* */
+ .bullhornlink{visibility:visible !important; visibility:hidden !important;}
+ .linkesterno{visibility:visible !important; /* visibility:hidden !important; */ }
+ 
+ .nobug{ display:none !important; display:block !important; }
+ 
+/* commentario */ 
+ .commento{ visibility:visible; }
+ .titolo{ visibility:visible !important; }
+ .item_prova, .itemprova{ visibility:hidden !important; }
+
+
+
+
+ 
+/* aggiustamenti */
+
+
+ section{overflow:auto !important;}
+
+/* anchor link patches */
+ a{ /* color:maroon !important; */
+ color:transparent !important;
+ color:maroon !important;
+ font-size:1.75rem !important;
+ font-family: monospace !important;
+ font-weight:normal; font-variant:small-caps; 
+ text-decoration: none !important;
+ letter-spacing:0.1rem; 
+ }
+
+ /*
+ a:hover { color:red !important; }
+ a:visited { color:red !important; }
+*/
+
+/* immagini */
+ img{display:block !important; width:100% !important; height:auto !important; }
+
+/* *********************  table *********************  */
+ table{ 
+/* comando per table not exceeding container */ 
+ table-layout: fixed !important;
+ }
+table{text-align:left !important;  table-layout:fixed !important;}
+td{text-align:left !important; overflow:auto !important;}
+
+
+/* *********************  aggiustamento local bs *********************  */
+ .card{background-color:var(--bsnr-giallo) !important; }
+ .mark{ font-size:0.1rem !important; }
+
+/* *********************  bootstrap personalizzato *********************  */
+.bg-warning_my-5_px-3, .section_extras{
+	background-color: #ffc107 !important;
+	margin-top: 3rem !important;
+	margin-bottom: 3rem !important;
+	padding-right: 1rem !important;
+	padding-left: 1rem !important;
+}
+
+
+/* *********************  aggiustamento particolare *********************  */
+
+.articolo{ 
+margin-top:0.5rem; margin-bottom:0.5rem; 
+text-align:left !important;
+visibility:visible !important; 
+}
+
+section#charlie_newman>article>div.articolo{text-align:right !important;}
+
+.fontesmall { font-size: 0.7rem !important; }
+.fontebold{ font-weight: bold !important; }
+
+	.item_sinistra{
+	margin-top:1.5rem !important; margin-bottom:1.5rem !important;
+	padding-left:0.1rem !important;   padding-right:0.1rem !important; 
+	background-color: var(--bsnr-html); background-color: oldlace; border-radius:0.2rem !important; }
+	
+	.item_a_sinistra{
+	font-size:1.5rem !important; font-weight:bold !important; 
+	overflow:auto !important;}
+
+	.colonna-sinistra{background-color:rgba(255,170,0,0.25) !important; 
+width:5rem !important; width:2.3rem !important; }
+
+
+
+
+
+
