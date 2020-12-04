@@ -1,3 +1,7 @@
+
+/*  menu di link interni extras 20201204 1837 */
+
+
 document.getElementById("extras_menu").innerHTML= ' <section  '+ 	'  class="position-fixed '+ 	'    bottom-0 border border-warning"   '+ 	'   style=" width:100% !important;  height:auto !important; text-align:left !important;  background-color:rgba(255,170,0,0.65); ">  '+ 	'    '+ 	'    '+ 	
 
 ' <span style="margin-right:2.3rem !important;  padding:0.2rem; border-radius:0.4rem !important;  border:solid 0.05rem navy !important;">   '+ 	'    '+ 	
@@ -19,9 +23,34 @@ document.getElementById("extras_menu").innerHTML= ' <section  '+ 	'  class="posi
 '   border-radius:0rem !important;  '+ 	'     background-color:rgba(255,170,0,0); ">     '+ 
 
 
-' <ul style="border:solid 0.5rem indigo !important;  height:11.5rem !important; overflow:auto !important; ">'+
-'  	<a class="btn-warning rounded"   '+ '  href="#jack_kerouac">  '+ 	'  	<span>jack_kerouac</span></a>  '+ 	
-' 	<a class="btn-warning rounded"   '+ '  href="#ron_whitehead">  '+ 	'  	<span>ron_whitehead</span></a>  '+ 	
+
+
+
+
+' <ul style="border:solid 0.5rem indigo !important;  height:11.5rem !important; overflow:auto !important; border-radius:0.2rem !important; ">'+
+
+
+	
+' 	<a class="btn-warning rounded"   '+ '  href="#david-amram">  '+ 	'  	<span>amram_david</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#erni_baer">  '+ 	'  	<span>baer_erni</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#michael_bowen">  '+ 	'  	<span>bowen_michael</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#sarah_elizabeth_burkey">  '+ 	'  	<span>burkey_sarah_elizabeth</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#ricky_chavez">  '+ 	'  	<span>chavez_ricky</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#peter_edler">  '+ 	'  	<span>edler_peter</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#chris_felver">  '+ 	'  	<span>felver_chris</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#fugs">  '+ 	'  	<span>fugs</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#robert_grootveld">  '+ 	'  	<span>grootveld_robert</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#hammond_guthrie">  '+ 	'  	<span>guthrie_hammond</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#jack_kerouac">  '+ 	'  	<span>kerouac_jack</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#larry_kincaid">  '+ 	'  	<span>kincaid_larry</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#frank_messina">  '+ 	'  	<span>messina_frank</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#joseph_nechvatal">  '+ 	'  	<span>nechvatal_joseph</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#charlie_newman">  '+ 	'  	<span>newman_charlie</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#milo_tamez">  '+ 	'  	<span>tamez_milo</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#dino_valenti">  '+ 	'  	<span>valenti_dino</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#mike_watt">  '+ 	'  	<span>watt_mike</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#ron_whitehead">  '+ 	'  	<span>whitehead_ron</span></a>  '+ 	
+' 	<a class="btn-warning rounded"   '+ '  href="#robert_zoschke">  '+ 	'  	<span>zoschke_robert</span></a>  '+ 	
 
 
 
@@ -31,6 +60,8 @@ document.getElementById("extras_menu").innerHTML= ' <section  '+ 	'  class="posi
 
 ' </div> '+
 ' </span> '+ 	
+
+' <span style="font-size:small !important;">   vers.   20201204_1835   </span>    '+ 
 
 ' </section>  ';
 
