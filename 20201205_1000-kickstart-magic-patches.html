@@ -1,0 +1,54 @@
+<body onload="attesaY()"  
+style="border-right:solid 0.2rem indigo ! important; ">
+
+ <!-- root link -->
+<!-- http://beatsupernovarasa.altervista.org/zap/ -->
+ <script src="http://beatsupernovarasa.altervista.org/radice/radice.js"></script>
+
+<!--  kickstart with magic patch style menuglobale  -->
+<!-- -->
+<span id="bsnr_kickstart">bug bsnr_kickstart</span>
+<span id="bsnr_menu_globale" 
+style="border:solid 0.2rem transparent !important; ">
+bug bsnr_home_menu</span>
+<!-- -->
+
+<script>
+
+var postfisso = new Date();
+
+var carica_script_GLOBALE_0 = document.createElement("script");
+var nome_0 =radice+"bs/kickstart/bsnr_kickstart/default.js";
+nome_0 = nome_0+"?"+ postfisso;
+carica_script_GLOBALE_0.src=nome_0;
+document.getElementsByTagName("head")[0].appendChild(carica_script_GLOBALE_0);
+
+var carica_script_GLOBALE_1 = document.createElement("script");
+var nome_1 =radice+"bs/kickstart/bsnr_menu_globale/default.js";
+nome_1 = nome_1+"?"+ postfisso;
+carica_script_GLOBALE_1.src=nome_1;
+document.getElementsByTagName("head")[0].appendChild(carica_script_GLOBALE_1);
+
+</script>
+
+
+
+
+<!-- spinner attesa ini -->
+ <script src="https://use.fontawesome.com/2d0876dd08.js"></script>
+<div id="spinnerattivo" class="posizione_spinner">
+<span class="fa fa-spinner fa-pulse"></span>
+</div>
+
+<script>
+function attesa() { 
+if (document.all) { }
+else if (document.getElementById) {
+document.getElementById("spinnerattivo").style.visibility="hidden";
+ }
+}
+
+</script>
+<!-- spinner attesa fin -->
+</body>
+
