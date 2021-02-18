@@ -87,3 +87,57 @@ class="px-1 border border-0 immagine">
 
 </div>
 
+
+<div id="spinner-cm">bug spinner-cm</div>
+<!---->
+<script>
+var d=new Date(); var n=d.toString();
+var postscritto="?"+n;
+/*
+var nome_tablette_cm_0001="tablette-cm-0018.js"+postscritto;
+var tablette_cm_0001=document.createElement("script");
+tablette_cm_0001.src=nome_tablette_cm_0001;
+document.getElementsByTagName("head")[0].appendChild(tablette_cm_0001);
+*/
+var nome_alfabeta_bs_standard="http://noteapiedipagina.altervista.org/cm-op/cm-op-v-00/alfabeta/bs/standard/default.js"+postscritto;
+var alfabeta_bs_standard=document.createElement("script");
+alfabeta_bs_standard.src=nome_alfabeta_bs_standard;
+document.getElementsByTagName("head")[0].appendChild(alfabeta_bs_standard);
+var nome_menu_cm_0001="menu-cm-0020.js"+postscritto;
+var menu_cm_0001=document.createElement("script");
+menu_cm_0001.src=nome_menu_cm_0001;
+document.getElementsByTagName("head")[0].appendChild(menu_cm_0001);
+var nome_menu_icone_standard="http://noteapiedipagina.altervista.org/cm-op/cm-op-v-00/alfabeta/menu-icone-standard/default.js"+postscritto;
+var menu_icone_standard=document.createElement("script");
+menu_icone_standard.src=nome_menu_icone_standard;
+document.getElementsByTagName("head")[0].appendChild(menu_icone_standard);
+var nome_spinner_cm="http://noteapiedipagina.altervista.org/cm-op/cm-op-v-00/alfabeta/spinner-cm/default.js"+postscritto;
+var spinner_cm=document.createElement("script");
+spinner_cm.src=nome_spinner_cm;
+document.getElementsByTagName("head")[0].appendChild(spinner_cm);
+</script>
+</main>
+<div onclick="OUTSPINNER()" class="posizioneOUTSPINNER"
+style="visibility:visible;cursor:pointer;">
+&nbsp;
+</div>
+<script>
+function OUTSPINNER() {
+ element = document.querySelector(".OUTSPINNER");
+ element.style.visibility = "hidden";
+ body.style.visibility = "visible";
+ html.style.backgroundColor = "rgba(253,245,230,0.5)";
+
+ element = document.querySelector("#SPINNERpausa");
+ element.style.visibility = "hidden";
+ body.style.visibility = "visible";
+ html.style.backgroundColor = "rgba(253,245,230,0.5)";
+
+ }
+</script>
+<div id="fine"></div>
+</body>
+</html>
+
+
+
